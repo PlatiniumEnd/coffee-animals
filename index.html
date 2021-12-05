@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <title>Les bars à Animaux</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <header>
+
+            <div class="titre">
+                <h1 id="titre">Les Cafés à Animaux</h1>
+            </div>
+            <div class="introduction">
+                <p id="introduction">Connaissez vous l'existence de ces cafés insolites ? 
+                    <br>
+                    <br>
+                    Très populaire en Asie de l'Est ces cafés ont la particularité de vous permettre de passer un moment agréable à déguster et boire une boisson entouré de vos animaux préférés ! Le café à chat ou "Neko bar" (terme provenant du Japon) étant devenu presque classique nous allons voir ensemble quelle variété d'animaux nous pouvons maintenant retrouver dans ces cafés. Attention certains sont très originaux !</p>
+            </div>
+
+        </header>
+
+            <div class="grid">
+
+                <div class="chat">
+                    <h2>Le chat :</h2>
+                    <p>Saviez vous que les chats ont des vertus thérapeutiques ? Ils sont en effet capable de nous destrésser et nous apaiser par leur simple présence ! C'est peut-être pour cela que nous sommes si fous d'eux (Ça et leur tête). Avec ces raisons il n'est pas étonant que le chat soit aussi populaire dans les cafés !</p>
+
+                    <img class="image_chat" src="assets/images/chat.jpg" alt="chat">
+                </div>
+                <br>
+
+                <div class="chien">
+                    <h2>Le chien :</h2>
+                    <p>Le 2ème animal après le chat c'est bien sûr le chien ! Il n'est pas le meilleur ami de l'homme pour rien, type de café très populaire il n'est pas rare d'en voir qui sont consacrés à une seule race comme le shiba inu.</p>
+
+                    <img class="image_chien" src="assets/images/chien.jpg" alt="chien">
+                </div>
+                <br>
+
+                <div class="lapin">
+                    <h2>Le lapin :</h2>
+                    <p>Encore un animal qu'on a l'habitude de cotoyer, le lapin. Très affectueux surtout quand on les nourrit il peut être très agréable de boire son thé en Compagnie de lapin et peut être se retrouver au Pays des Merveilles ?</p>
+
+                    <img class="image_lapin" src="assets/images/lapin.jpg" alt="lapin">
+                </div>
+                <br>
+
+                <div class="chouette">
+                    <h2>La chouette :</h2>
+                    <p>Premier animal véritablement original dans notre présentation : la chouette. Toutes sont habituées au contact humain depuis leur naissance vous pouvez donc vous en approcher sans crainte. Attention néanmoins aux petits coups de becs lorsqu'on les caresses.</p>
+
+                    <img class="image_chouette" src="assets/images/chouette.jpg" alt="chouette">
+                </div>
+                <br>
+
+                <div class="herisson">
+                    <h2>L'hérisson :</h2>
+                    <p>Un autre animal avec qui on ne s'attendrait pas à prendre un thé l'hérisson! On comprend tout de suite pourquoi il est dans cette liste quand on voit son apparence, mais attention bien qu'il soit très gentil il n'est pas facile à caresser!</p>
+
+                    <img class="image_herisson" src="assets/images/herisson.jpg" alt="herisson">
+                </div>
+                <br>
+
+                <div class="serpent">
+                    <h2>Le serpent :</h2>
+                    <P>Avis aux plus chevronnés d'entre vous ! Certainement l'expérience la plus originale de cette présentation, vous pouvez tester l'expérience de manipuler un serpent si le coeur vous en dit.</P>
+
+                    <img class="image_serpent" src="assets/images/serpent.jpg" alt="serpent">
+                </div>
+                <br>
+
+            </div>
+
+                <div class="adresses">
+                    <p>Eh oui ! Même en France on peut à présent retrouver des cafés à animaux. Néanmoins ici pas de folies comme avec les serpents on reste dans du très classique :
+                        <li><a href= "https://www.google.com/maps/search/caf%C3%A9+animaux+paris/@48.8484886,2.3224441,14z/data=!3m1!4b1?ucbcb=1">Paris</a></li>
+                        <li><a href="https://www.google.com/maps/place/Le+Chamourai/@45.779493,4.8329751,14z/data=!4m9!1m2!2m1!1scaf%C3%A9+animaux+lyon!3m5!1s0x47f4eae1c24205f3:0x9de2f783623acf9!8m2!3d45.7794393!4d4.8330661!15sChJjYWbDqSBhbmltYXV4IGx5b26SAQRjYWZl?ucbcb=1">Lyon</li>
+                        <li><a href="https://www.google.com/maps/search/caf%C3%A9+animaux+toulouse/@43.6024267,1.4016375,13z/data=!3m1!4b1?ucbcb=1">Toulouse</a></li>
+                    </p>
+    
+                </div>
+        
+        <footer>
+
+            <div class="merci">
+
+                <p>C'est la fin de ce website merci de l'avoir consulté ! <br>Rodolphe BABIN</p>
+                <form name="notation" method="get" action="assets/js/script.js">
+                    <label for="votre_note">Votre note sur 20 </label> : <input type="number" min="0" max="20" name="note" id="votre_note" size="1fr" maxlength="2" placeholder="20/20">
+                    <input type="button" value="Envoyer" onclick="noter(notation)">
+                </form>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+/*Mise en page*/
+body {
+    font-family: 'Poppins'; 
+    background: linear-gradient(-45deg, #dc7f74, #8966aa, #92617b, #f5a5a5, #aca8db);
+    background-size: 400% 400%; 
+    animation: gradient 5s ease infinite;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.main
+{
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*header*/
+
+.titre
+{
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    background-color: bisque;
+    margin-top: 3%;
+}
+
+.introduction
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*fin header */
+
+/*body*/
+
+/*Début GRID*/
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.chien {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.lapin {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.chouette {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.herisson {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.serpent {
+    grid-column: 2;
+    grid-row: 3;
+}
+/*Fin GRID*/
+
+.grid {
+    text-align: center;
+}
+
+.chat, .chien, .lapin, .herisson, .chouette, .serpent {
+    padding: 3%;
+}
+.chat h2 , .chien h2 , .lapin h2 , .chouette h2 , .herisson h2 , .serpent h2 , .adresses h2 
+{
+    font-weight: bold;
+}
+
+.chat p, .chien p, .lapin p, .chouette p, .herisson p, .serpent p
+{
+    margin-bottom: 10px;
+}
+
+.image_chat , .image_chien , .image_lapin , .image_chouette , .image_herisson , .image_serpent
+{
+    width: 400px;
+}
+
+/*fin body*/
+
+/*footer*/
+
+.merci
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*fin footer*/
+
+/*PORTABLE*/
+
+@media (max-device-width: 500px) {
+
+.grid
+{
+    display: block;
+}
+.main
+{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*header*/
+
+.introduction
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.image_chat , .image_chien , .image_lapin , .image_chouette , .image_herisson , .image_serpent
+{
+    width: 750px;
+    text-align: center;
+}
+
+/*fin header*/
+
+/*footer*/
+.merci {
+font-size: 20px; 
+}
+}
+
+
+    
